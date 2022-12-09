@@ -1,0 +1,24 @@
+# interface
+    criar interface em bootstrap
+        campo login
+        campo senha wifi
+        botões
+            botão PPPoE
+            botão WIFI
+            botão senha do WIFI
+            botão senha acesso
+            botão porta
+
+# algorítimo
+    copiar para a área de transferência o texto dentro do botão
+        caso não tenha conteúdo apresentar erro ao usuário
+    
+    mudar conteúdo ao digitar no campo PPPoE
+        botão PPPoE
+        botão WIFI
+            retirar os números do PPPoE
+            deixar texto em caixa alta
+            adicionar prefixo "FRASANET-" no início
+    
+    mudar conteúdo ao digitar no campo Senha WIFI
+        botão senha WIFI
